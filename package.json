@@ -1,0 +1,24 @@
+{
+  "name": "vs-dilbert-transcripts",
+  "version": "1.0.0",
+  "description": "Transcribe Dilbert comics using AI",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "transcribe": "node transcribe-comics.js",
+    "transcribe-gemini": "node transcribe-comics-gemini.js"
+  },
+  "keywords": [
+    "dilbert",
+    "comics",
+    "transcription",
+    "ai"
+  ],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@google/genai": "^1.16.0",
+    "dotenv": "^16.3.1"
+  }
+}
